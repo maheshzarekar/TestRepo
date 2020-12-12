@@ -1,0 +1,2 @@
+Q.1) What is annotation?
+===> Annotation is a tag attached to programming element (class,interface,field or method) to indicate some additional information about that element, which can be verified and used by java compiler or JVM
