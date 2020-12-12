@@ -1,0 +1,9 @@
+Q.1) What is the difference between a collection and a stream
+
+===>	A collection refers to a group of objects in memory.
+		A stream contains objects that are taken from a collection for the purpose of doing some manipulation
+		
+Q.2) Difference between intermediate operations and terminal operations in case of streams?
+
+==>		Intermediate operations return a stream as a result of the operation.
+		Terminal operations return only value as a result of the operation.

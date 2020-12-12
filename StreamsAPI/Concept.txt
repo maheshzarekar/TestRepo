@@ -1,0 +1,40 @@
+Streams API
+===============
+
+ API - Application Programming Interface
+ 	It represents a group of classes and interfaces using which we can develop application or software.
+ 	
+ In Java 8 New Package introduced java.util.stream for creating and working with streams.
+ 
+ We know that, stream represents flow of data from one place to another place. 
+ But in Java 8, stream represents flow of objects on which manipulation can be done.
+ 
+ 	Primary aim of a stream concept is to make the operations easy on collections. A collection represent a object
+ which contains a group of other objects. 
+ 
+ When we need to make some manipulations on the objects of collection, we can use methods that are already 
+ available in the collection framework. But we cannot use  lambda expressions in this case.
+ 
+ Lambda expressions are developed to make manipulation on the objects easy.
+ To utilize this advantage, we should collect all the objects of a collection into a stream and then apply 
+ manipulations through lambda expressions.
+ 
+ It means, stream contains objects coming from a collection that can be easily manipulated with the help of
+ lambda expressions. This is the reason streams are generally used with collections like lists or sets.
+ 
+ Creating streams :
+ ------------------
+ 	To create a stream from a list, we can use stream() method of Stream class of java.util.stream package
+ 	
+ 	// create a list to store Integer objects
+		List<Integer> lst = new ArrayList<Integer>();
+
+		// add elements to the list
+		for (int i = 1; i < 10; i++)
+			lst.add(i);
+
+		// convert this list into stream using stream()
+		Stream<Integer> sm = lst.stream(); 
+ 
+ 	 
+  
